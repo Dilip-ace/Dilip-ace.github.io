@@ -45,11 +45,12 @@ document.addEventListener('DOMContentLoaded', () => {
   const typingElement = document.getElementById('typingHeroText');
   if (typingElement) {
     const roles = [
-      'Scalable Code',
-      'Web Automation Bots',
-      'Intelligent ML Models',
-      'Responsive Web Apps',
-      'Robust Cloud Systems'
+      'Data Analytics & SQL',
+      'Full-Stack Web Apps',
+      'Browser Automation Bots',
+      'Microsoft Azure Systems',
+      'Machine Learning Models',
+      'Java & C++ Architecture'
     ];
     let roleIndex = 0;
     let charIndex = 0;

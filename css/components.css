@@ -1069,6 +1069,32 @@
   line-height: 1.6;
 }
 
+.timeline-bullets {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  margin-top: 0.75rem;
+}
+
+.timeline-bullets li {
+  position: relative;
+  padding-left: 1.25rem;
+  font-size: 0.92rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+.timeline-bullets li::before {
+  content: '▹';
+  position: absolute;
+  left: 0;
+  color: var(--accent-cyan-light);
+  font-weight: bold;
+}
+
+
 /* ==========================================================================
    CONTACT SECTION
    ========================================================================== */
@@ -1433,4 +1459,93 @@
   border: 1px solid var(--accent-cyan);
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
 }
+
+/* Certifications 4-Column Responsive Grid */
+.certs-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+
+@media (max-width: 1200px) {
+  .certs-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .certs-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Language Badges */
+.language-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.25rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--glass-border);
+}
+
+.language-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.45rem 0.85rem;
+  border-radius: var(--radius-full);
+  background: rgba(56, 189, 248, 0.08);
+  border: 1px solid rgba(56, 189, 248, 0.25);
+  font-size: 0.82rem;
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.language-badge .lang-flag {
+  font-size: 1rem;
+}
+
+.language-badge .lang-level {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+/* Quote Vision Callout */
+.quote-banner {
+  margin: 1.5rem 0;
+  padding: 1.25rem 1.5rem;
+  border-left: 3px solid var(--accent-cyan);
+  background: rgba(15, 23, 42, 0.5);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  font-style: italic;
+  font-size: 0.95rem;
+  color: #cbd5e1;
+  line-height: 1.65;
+}
+
+.timeline-type-pill {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.2rem 0.55rem;
+  border-radius: var(--radius-full);
+  margin-left: 0.5rem;
+}
+
+.type-leadership {
+  background: rgba(245, 158, 11, 0.15);
+  color: #fbbf24;
+  border: 1px solid rgba(245, 158, 11, 0.3);
+}
+
+.type-industry {
+  background: rgba(56, 189, 248, 0.15);
+  color: #38bdf8;
+  border: 1px solid rgba(56, 189, 248, 0.3);
+}
+
 

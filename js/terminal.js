@@ -47,7 +47,7 @@ Core Focus: Turning operational and customer data into actionable business insig
     experience: () => `
 <div class="term-success">💼 Professional Experience & Internships:</div>
   • <strong>Fusion CX</strong> — Production Specialist – Operations (Jan 2026 – Present)
-    Pushed first-contact resolution >88%; built 3 standardized workflows cutting handling time by ~18%; delivered 25+ troubleshooting walkthroughs; exceeded commercial upsell targets.
+    Studied multi-system customer data pushing FCR >88%; created 25+ walkthroughs; engineered 3 standardized workflows cutting AHT by ~18%; consistently exceeded commercial targets; organized 10+ feedback summaries shaping 2 core product updates.
   • <strong>Concentrix Pvt. Ltd.</strong> — Technical Support II (Apr 2025 – Jan 2026, Gurugram)
     <span class="text-yellow">★ Ranked Top 10% Performer team-wide (CSAT · FCR · AHT)</span>. Resolved 95%+ of escalated Tier-2 tickets; analyzed API logs to cut repeat contacts by ~30%.
   • <strong>Microsoft</strong> — Future Ready Talent Intern (Mar 2022 – May 2022)
